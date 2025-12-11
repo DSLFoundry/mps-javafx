@@ -371,7 +371,7 @@
             <node concept="398BVA" id="104mW9b69V3" role="2HvfZ0">
               <ref role="398BVh" node="6aa2uX208oY" resolve="javafx.home" />
               <node concept="2Ry0Ak" id="104mW9b69V4" role="iGT6I">
-                <property role="2Ry0Am" value="javafx-sdk-11.0.2" />
+                <property role="2Ry0Am" value="javafx-sdk-17.0.17" />
                 <node concept="2Ry0Ak" id="104mW9b69V5" role="2Ry0An">
                   <property role="2Ry0Am" value="legal" />
                 </node>
@@ -389,7 +389,7 @@
             <node concept="398BVA" id="104mW9b69Va" role="2HvfZ0">
               <ref role="398BVh" node="6aa2uX208oY" resolve="javafx.home" />
               <node concept="2Ry0Ak" id="104mW9b69Vb" role="iGT6I">
-                <property role="2Ry0Am" value="javafx-sdk-11.0.2" />
+                <property role="2Ry0Am" value="javafx-sdk-17.0.17" />
                 <node concept="2Ry0Ak" id="104mW9b69Vc" role="2Ry0An">
                   <property role="2Ry0Am" value="bin" />
                 </node>
