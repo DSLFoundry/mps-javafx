@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="8" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -128,7 +128,7 @@
       </concept>
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
-        <property id="1500819558096356884" name="doNotCompile" index="2GAjPV" />
+        <property id="2928402740576877067" name="javaCode" index="3vZFNd" />
         <child id="5253498789149547825" name="sources" index="3bR31x" />
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
@@ -165,7 +165,7 @@
     <node concept="10PD9b" id="Q9h$0vYOns" role="10PD9s" />
     <node concept="3b7kt6" id="Q9h$0vYOnt" role="10PD9s" />
     <node concept="398rNT" id="Q9h$0vYOnu" role="1l3spd">
-      <property role="TrG5h" value="mps.home" />
+      <property role="TrG5h" value="mps_home" />
     </node>
     <node concept="398rNT" id="6aa2uX208oY" role="1l3spd">
       <property role="TrG5h" value="javafx.home" />
@@ -448,7 +448,7 @@
         <property role="TrG5h" value="JavaFX" />
         <property role="3LESm3" value="69f76f19-b3ff-4833-843a-036cd0ceb0d1" />
         <property role="aoJFB" value="eYcmk9QOli/sources" />
-        <property role="2GAjPV" value="true" />
+        <property role="3vZFNd" value="3kCd1ud3JDD/compile_ext" />
         <node concept="398BVA" id="6aa2uX208q1" role="3LF7KH">
           <ref role="398BVh" node="6aa2uX208oY" resolve="javafx.home" />
           <node concept="2Ry0Ak" id="6aa2uX208q6" role="iGT6I">

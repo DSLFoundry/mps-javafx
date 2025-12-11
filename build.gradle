@@ -31,8 +31,8 @@ configurations {
 }
 
 dependencies {
-    mps "com.jetbrains:mps:2023.2.+"
-    languageLibs "com.mbeddr:platform:2023.2+"
+    mps "com.jetbrains:mps:2024.1.+"
+    languageLibs "com.mbeddr:platform:2024.1+"
     junitAnt 'org.apache.ant:ant-junit:1.10.15'
 }
 
@@ -64,7 +64,7 @@ def pluginVersion = project.findProperty("pluginVersion")
 
 // Default arguments for ant scripts
 def defaultScriptArgs = [
-        'mps.home'                          : resolveMps.destinationDir,
+        'mps_home'                          : resolveMps.destinationDir,
         'javafx.home'                       : projectDir,
 	'javafx.version'                    : javafxVersion,
 	'plugin.version'                    : pluginVersion,
