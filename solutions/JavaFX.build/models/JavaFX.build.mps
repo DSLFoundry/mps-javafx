@@ -186,7 +186,7 @@
     <node concept="2sgV4H" id="Q9h$0vYOnv" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="Q9h$0vYOnw" role="2JcizS">
-        <ref role="398BVh" node="Q9h$0vYOnu" resolve="mps.home" />
+        <ref role="398BVh" node="Q9h$0vYOnu" resolve="mps_home" />
       </node>
     </node>
     <node concept="1l3spV" id="Q9h$0vYOnP" role="1l3spN">
